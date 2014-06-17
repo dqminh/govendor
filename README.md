@@ -3,7 +3,7 @@
 Minimalistic golang's package management. Our approach is:
 - clones dependencies listed in `deps.json` into `_vendor` directory
 - output `export GOPATH=$(pwd)/_vendor:$GOPATH` into `.env` file
-- use `https://github.com/kennethreitz/autoenv` to activate our GOPATH
+- use https://github.com/kennethreitz/autoenv to activate our GOPATH
 
 ### How to use
 
